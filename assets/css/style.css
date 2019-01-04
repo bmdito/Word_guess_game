@@ -1,14 +1,67 @@
+body {
+    background-color:black;
+}
+
 h1 {
     text-align: center;
-    font-size:30px;
+    font-size:45px;
     line-height: 40px;
+    border: 5px solid blue;
+    margin-right:20%;
+    margin-left:20%;
+    background-color:white;
+    margin-top:2%;
+    color:blue;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius:25px;
 
 }
+
 
 #theWord {
-    font-size:40px;
+    font-size:55px;
     color:rgb(15, 15, 77);
     text-align: center;
-    
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:2%;
+    padding:2%;
+    margin-right:20%;
+    margin-left:20%;
+    border:5px solid blue;
+
 
 }
+
+#badGuess {
+    text-transform: uppercase;
+    color:rgb(238, 12, 12);
+}
+
+h2, p {
+    font-size: 25px;
+    color:blue;
+    font-weight: bolder;
+    background-color:white;
+    border-radius:25px;
+    border: 5px solid blue;
+}
+
+#coverPhoto {
+    height: 400px;
+    width: 500px;
+    margin: 2% 25% 2% 32%;
+}
+
+h2 {
+    text-align:left;
+    border: 5px solid blue;
+    margin-bottom:2%;
+    line-height:20px;
+    margin-right:20%;
+    margin-left:20%;
+    padding:2%;
+
+}
+
