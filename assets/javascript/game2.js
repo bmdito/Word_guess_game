@@ -16,6 +16,7 @@ answerArray = [];
 
 function startGame(){
 
+document.getElementById("badGuess").innerHTML = wrongGuesses;      
 var chosenWord = wordSetArr[Math.floor(Math.random() * wordSetArr.length)];
  console.log(chosenWord);
  alert("Press any key to get started!!");
@@ -46,6 +47,7 @@ for (var i =0; i < chosenWord.length; i++)
             losses++;
             document.getElementById("lossCount").innerHTML = losses;
             startGame();
+            wrongGuesses = [];
             
         } 
         
@@ -56,6 +58,7 @@ for (var i =0; i < chosenWord.length; i++)
             document.getElementById("winCount").innerHTML = wins;
             console.log(wins);
             startGame();
+            wrongGuesses = [];
         }
     }
 
